@@ -1,0 +1,7 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Assigned To,Remarks
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,-,Works as expected
+TC002,Validate product detail Page,Open product detail page > Verify Single product detail page,Product details displayed correctly in Product Detail Page,Product details displayed correctly in Product Detail Page,Passed,-,Works as expected
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,-,Works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Layout adjusts properly to screen size,Passed,-,Test successful
+TC005,Cross Browser Compatibility,Check  multiple browser windows > Check layout,Layout adjusts properly to different browser,Layout adjusts properly to different browser,Passed,,Test successful
+TC006,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,-,Handled gracefully
